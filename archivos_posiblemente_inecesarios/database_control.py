@@ -7,6 +7,6 @@ def insert_massive_data():
 def deleteall_data():
     print('borrando datos')
 
-conn = sqlite3.connect('maresme.sqlite')
+conn = sqlite3.connect('../maresme.sqlite')
 conn.commit()
 conn.close()
