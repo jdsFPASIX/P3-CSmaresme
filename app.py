@@ -9,8 +9,8 @@ def hello_world(): # put application's code here
     return render_template('template_index.html')
 
 
-if __name__ == '__main__':
-    app.run()
+"""if __name__ == '__main__':
+    app.run(debug='True')"""
 
 
 if __name__ == '__main__':
