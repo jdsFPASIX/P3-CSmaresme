@@ -16,9 +16,6 @@ def login():
 def contacto():
     return render_template('Contacto.html')
 
-caca caca caca caca
-
-
 
 if __name__ == '__main__':
     app.run(debug='True')
