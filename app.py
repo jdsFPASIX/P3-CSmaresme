@@ -17,22 +17,19 @@ def login():
 def contacto():
     return render_template('Contacto.html')
 
-@app.route('/register', methods=['get','post'])
+@app.route('/register', methods=['post'])
 def crearusuario():
-    if request.method == 'get':
-        return render_template('register.html')
-    else:
-        nombre = request.form['nombre']
-        apellido1 = request.form['apellido1']
-        apellido2 = request.form['apellido2']
-        fecha_nac = request.form['fecha_nac']
-        email = request.form['email']
-        telefono = request.form['telefono']
-        usuario = request.form['usuario']
-        password = request.form['password']
-        funcionesbbdd.nuevousuario(nombre,apellido1,apellido2,fecha_nac,email,telefono,usuario,password)
-        #return redirect('/register')
-        return 'OK'
+    nombre = request.form['nombre']
+    apellido1 = request.form['apellido1']
+    apellido2 = request.form['apellido2']
+    fecha_nac = request.form['fecha_nac']
+    email = request.form['email']
+    telefono = request.form['telefono']
+    usuario = request.form['usuario']
+    password = request.form['password']
+    funcionesbbdd.nuevousuario(nombre,apellido1,apellido2,fecha_nac,email,telefono,usuario,password)
+    #return redirect('/register')
+    return 'OK'
 
 
 if __name__ == '__main__':
