@@ -7,7 +7,7 @@ def nuevousuario(nombre,apellido1,apellido2,fecha_nac,email,telefono,usuario,pas
         '''
     VALUES = [nombre,apellido1,apellido2,fecha_nac,email,telefono,usuario,password]
 
-    cursor = conn.execute(sql,VALUES)
+    conn.execute(sql,VALUES)
 
     conn.commit()
     conn.close()
