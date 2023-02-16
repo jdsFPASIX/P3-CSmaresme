@@ -3,6 +3,7 @@ import funcionesbbdd
 
 
 app = Flask(__name__)
+app.secret_key = 'akjdaklfbobjbfñjbfnljdñNLMcKDBFJñldfnñsFBOÑ'
 
 @app.route('/')
 def hello_world(): # put application's code here
@@ -33,7 +34,7 @@ def crearusuario():
         password = request.form['password']
         funcionesbbdd.nuevousuario(nombre,apellido1,apellido2,fecha_nac,email,telefono,usuario,password)
     #return redirect('/register')
-    return redirect(url_for('/'))
+    return redirect(url_for('login'))
 
 
 if __name__ == '__main__':

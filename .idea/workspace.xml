@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9396c63-07b0-43da-9c71-d95cd9dc03e8" name="Changes" comment="daniel">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="e9396c63-07b0-43da-9c71-d95cd9dc03e8" name="Changes" comment="sincronizacion" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +69,6 @@
       <workItem from="1676305950315" duration="2929000" />
       <workItem from="1676388680591" duration="5174000" />
       <workItem from="1676556466685" duration="1153000" />
-      <workItem from="1676557637109" duration="1629000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1675710221522</created>
@@ -151,21 +147,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676390650497</updated>
     </task>
-    <task id="LOCAL-00012" summary="sincronizacion">
-      <created>1676557791192</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1676557791192</updated>
-    </task>
-    <task id="LOCAL-00013" summary="daniel">
-      <created>1676558887376</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1676558887376</updated>
-    </task>
-    <option name="localTasksCounter" value="14" />
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,11 +172,9 @@
     <MESSAGE value="Changes by x6451658c" />
     <MESSAGE value="sincronizacion manual" />
     <MESSAGE value="sincronizacion" />
-    <MESSAGE value="daniel" />
-    <option name="LAST_COMMIT_MESSAGE" value="daniel" />
+    <option name="LAST_COMMIT_MESSAGE" value="sincronizacion" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/P3_Maresme$P3_Maresme.coverage" NAME="P3-Maresme Coverage Results" MODIFIED="1676392408034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/P3_Maresme$app.coverage" NAME="app Coverage Results" MODIFIED="1676558627394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
