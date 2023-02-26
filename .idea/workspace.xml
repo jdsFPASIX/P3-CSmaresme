@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e9396c63-07b0-43da-9c71-d95cd9dc03e8" name="Changes" comment="sincronizacion" />
+    <list default="true" id="e9396c63-07b0-43da-9c71-d95cd9dc03e8" name="Changes" comment="sincronizacion">
+      <change beforePath="$PROJECT_DIR$/templates/Contacto.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Contacto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/intercambios.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/intercambios.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,6 +75,7 @@
       <workItem from="1676305950315" duration="2929000" />
       <workItem from="1676388680591" duration="5174000" />
       <workItem from="1676556466685" duration="1153000" />
+      <workItem from="1676570093299" duration="1339000" />
     </task>
     <task id="LOCAL-00001" summary="commit 1">
       <created>1675710221522</created>
