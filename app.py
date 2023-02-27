@@ -1,40 +1,35 @@
 from flask import *
 import funcionesbbdd
-
+#from fucttools import wrapper
 
 app = Flask(__name__)
 app.secret_key = 'akjdaklfbobjbfñjbfnljdñNLMcKDBFJñldfnñsFBOÑ'
 
 @app.route('/')
-def hello_world(): # put application's code here
-    return render_template('index.html')
-
-
+def mostrar_home():
+    return render_template('a1-home.html')
 @app.route('/login')
-def login():
-    return render_template('login.html')
-
+def mostrar_login():
+    return render_template('b1-login.html')
+@app.route('/informacion')
+def mostrar_informacion():
+    return render_template('a2-informacion.html')
+@app.route('/articulos')
+def mostrar_articulos():
+    return render_template('a3-articulos.html')
 @app.route('/contacto')
-def contacto():
-    return render_template('Contacto.html')
+def mostrar_contacto():
+    return render_template('a4-contacto.html')
 
 
-@app.route('/register', methods=['GET','POST'])
-def crearusuario():
+@app.route('/register', methods=['GET', 'POST'])
+def crear_usuario():
     if request.method == 'GET':
         return render_template('register.html')
-    else:
-        nombre = request.form['nombre']
-        apellido1 = request.form['apellido1']
-        apellido2 = request.form['apellido2']
-        fecha_nac = request.form['fecha_nac']
-        email = request.form['email']
-        telefono = request.form['telefono']
-        usuario = request.form['usuario']
-        password = request.form['password']
-        funcionesbbdd.nuevousuario(nombre,apellido1,apellido2,fecha_nac,email,telefono,usuario,password)
-    #return redirect('/register')
-    return redirect(url_for('login'))
+    elif request.method == 'POST':
+        values = request.form.values()
+        funcionesbbdd.nuevousuario(values)
+        return redirect(url_for('mostrar_login'))
 
 
 if __name__ == '__main__':
