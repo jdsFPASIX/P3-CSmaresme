@@ -2,8 +2,9 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8"/>
-    <title>HOME</title>
+    <title>Inicio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/docs/5.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/static/css/basics.css"/>
     <header>
         <nav>
@@ -11,7 +12,7 @@
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/informacion">Informacion</a></li>
                 <li><a href="/login">Login</a></li>
-                <li><a href="/articulos">Articulos</a></li>
+                <li><a href="url_for('mostrar_articulos')">Articulos</a></li>
                 <li><a href="/contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -19,23 +20,31 @@
 </head>
 <body>
     <br>
-    <h1>INFORMACION</h1>
     <br>
-    <h1>QUE ESPERAR DE ESTA PLATAFORMA WEB</h1>
-        <p>Descripción breve</p>
-        <a href="/informacion">Click para saber mas...</a>
     <br>
-    <h1>COMPARTE TUS LECTURAS Y PRESTATE LAS DE OTROS</h1>
-        <p>Descripción breve</p>
-        <a href="/articulos">Click para mirar los articulos</a>
     <br>
-    <h1>UNA DISTRACCIÓN VISUAL</h1>
-        <p>Escucha explicaciones de las enfermadades y tratamientos</p>
-        <p>Distraete con pildoras educativas</p>
-    <br>
+    <div style="margin-left:100px">
+        <h1>QUE ESPERAR DE ESTA PLATAFORMA WEB</h1>
+            <p>Descripción breve</p>
+            <a href="/informacion">Click para saber mas...</a>
+        <br>
+        <h1>COMPARTE TUS LECTURAS Y PRESTATE LAS DE OTROS</h1>
+            <p>Descripción breve</p>
+            <a href="url_for('mostrar_articulos')">Click para mirar los articulos</a>
+        <br>
+        <h1>UNA DISTRACCIÓN VISUAL</h1>
+            <p>Escucha explicaciones de las enfermadades y tratamientos</p>
+            <p>Distraete con pildoras educativas</p>
+        <br>
+    </div>
     <footer>
         <p>Quieres contactarnos</p>
         <a href="/contacto">Clic aqui</a>
     </footer>
+    <br>
+    <br>
+    <br>
+    <br>
+
 </body>
 </html>

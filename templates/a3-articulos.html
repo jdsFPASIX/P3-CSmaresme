@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Articulos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
 </head>
+
 <body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div style="margin-left:100px">
+    <table>
+        <thead>
+            <tr>
+                <th>TITULO</th>
+                <th>AUTOR</th>
+                <th>FECHA PUBLICACION</th>
+                <th>CATEGORIA</th>
+                <th>DESCRIPCION</th>
+                <th>DISPONIBILIDAD</th>
+                <th>ACTIVO</th>
+                <th>OBSERVACIONES</th>
+            </tr>
+        </thead>
+        <tbody>
+            {%for articulo in articulos%}
+            <tr>
+                <td>{{articulo.titulo}}</td>
+                <td>{{articulo.autor}}</td>
+                <td>{{articulo.fecha_pub}}</td>
+                <td>{{articulo.categoria}}</td>
+                <td>{{articulo.descripcion}}</td>
+                <td>{{articulo.disponible}}</td>
+                <td>{{articulo.activo}}</td>
+                <td>{{articulo.observaciones}}</td>
+                <td>{{articulo.imagen1}}
+                    {{articulo.imagen2}}
+                    {{articulo.imagen3}}</td>
+            </tr>
+            {%endfor%}
+        </tbody>
+    </table>
+    </div>
+    <footer>
+        <p>Quieres contactarnos</p>
+        <a href="/contacto">Clic aqui</a>
+    </footer>
+    <br>
+    <br>
+    <br>
+    <br>
 
 </body>
 </html>

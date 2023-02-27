@@ -14,10 +14,10 @@ def nuevousuario(VALUES):
     conn.close()
 
 def nuevoarticulo(VALUES):
-
+    print('articulo añadido')
 def nuevoprestamo(VALUES):
     conn = sqlite3.connect('maresme.sqlite')
-
+    print('prestamo añadido')
 
 ###############################SELECT
 def ver_usuarios(id=None):
@@ -80,7 +80,7 @@ def ver_articulos(id=None):
             }
         )
     # 4. Cerrar conexión bbdd y devolver lista
-    connect_database.close()
+    conn.close()
     return list_articulos
 def ver_prestamos(id=None):
     # 1. Conexitar bbdd

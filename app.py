@@ -14,9 +14,11 @@ def mostrar_login():
 @app.route('/informacion')
 def mostrar_informacion():
     return render_template('a2-informacion.html')
-@app.route('/articulos')
+@app.route('/articulos', methods = ['GET', 'POST'])
 def mostrar_articulos():
-    return render_template('a3-articulos.html')
+    if request.method == 'GET':
+        articulos = funcionesbbdd.ver_articulos()
+        return render_template('a3-articulos.html', articulos = articulos)
 @app.route('/contacto')
 def mostrar_contacto():
     return render_template('a4-contacto.html')

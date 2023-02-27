@@ -1,31 +1,35 @@
 header {
-  background: rgba(0,0,0,0.7);
-  width: 100%;
-  position: fixed;
-  z-index: 100;
+    background: #142e61;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
 }
+
 nav {
-  float: left;
+    float: left;
 }
+
 nav ul {
-  list-style: none;
-  overflow: hidden;
+    list-style: none;
+    overflow: hidden;
 }
 
 nav ul li {
-  float: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-  }
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
 nav ul li a {
-  display: block;
-  padding: 20px;
-  color: #fff;
-  text-decoration: none;
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
 }
 
 nav ul li:hover {
-  background: #eca023;
+    background: #eca023;
 }
 
 
@@ -33,10 +37,9 @@ body {
     font-family: 'Overpass', sans-serif;
     font-weight: normal;
     font-size: 100%;
-    color: #1b262c;
+    color: #142e61;
 
     margin: 0;
-    background-color: #0f4c75;
 }
 
 #contenedor {
@@ -59,7 +62,7 @@ body {
 
 .titulo {
     font-size: 250%;
-    color:#bbe1fa;
+    color: #bbe1fa;
     text-align: center;
     margin-bottom: 20px;
 }
@@ -69,9 +72,9 @@ body {
     padding: 50px 30px;
     background-color: #3282b8;
 
-    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
-    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
-    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.15);
 
     border-radius: 3px 3px 3px 3px;
     -moz-border-radius: 3px 3px 3px 3px;
@@ -108,7 +111,7 @@ body {
 #login button {
     font-family: 'Overpass', sans-serif;
     font-size: 110%;
-    color:#1b262c;
+    color: #1b262c;
     width: 100%;
     height: 40px;
     border: none;
@@ -124,7 +127,7 @@ body {
 
 #login button:hover {
     background-color: #0f4c75;
-    color:#bbe1fa;
+    color: #bbe1fa;
 }
 
 .pie-form {
